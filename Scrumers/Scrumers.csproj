@@ -79,6 +79,9 @@
     <Compile Include="StoryPanoramaPage.xaml.cs">
       <DependentUpon>StoryPanoramaPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TaskPage.xaml.cs">
+      <DependentUpon>TaskPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModels\ItemViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
   </ItemGroup>
@@ -104,6 +107,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="StoryPanoramaPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TaskPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

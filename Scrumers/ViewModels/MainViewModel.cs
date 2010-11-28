@@ -37,6 +37,11 @@ namespace Scrumers
         /// </summary>
         public Dictionary<string, ObservableCollection<ItemViewModel>> Tasks { get; private set; }
 
+        /// <summary>
+        /// When in Task page, represent the selected task
+        /// </summary>
+        public Task CurrentTask { get; private set; }
+
         public MainViewModel()
         {
             this.Items = new ObservableCollection<ItemViewModel>();
@@ -108,8 +113,9 @@ namespace Scrumers
         /// <summary>
         /// Create and add tasks of a story
         /// </summary>
-        public void LoadStory(Story st)
+        public void LoadStory(int storyId)
         {
+            Story st = (from story in DataProvider.getStories() where story.id == storyId select story).First<Story>();
             Tasks.Clear();
             Tasks.Add("All", new ObservableCollection<ItemViewModel>());
             Tasks.Add("To Do", new ObservableCollection<ItemViewModel>());
@@ -122,6 +128,11 @@ namespace Scrumers
                 Tasks["All"].Add(new ItemViewModel() { LineOne = t.name, LineTwo = t.status, LineThree = t.createdAt.ToShortDateString(), Id = t.id.ToString() });
                 Tasks[t.status].Add(new ItemViewModel() { LineOne = t.name, LineTwo = "Elapsed Time: " + t.elapsedTime.ToString(), LineThree = t.createdAt.ToShortDateString(), Id = t.id.ToString() });
             }
+        }
+
+        public void LoadTask(int taskId)
+        {
+            CurrentTask = (from task in DataProvider.getTasks() where task.id == taskId select task).First<Task>();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

@@ -11,7 +11,6 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using System.Windows.Navigation;
-using Scrumers.Data;
 
 namespace Scrumers
 {
@@ -28,8 +27,7 @@ namespace Scrumers
             string selectedStoryIdString = "";
             if (NavigationContext.QueryString.TryGetValue("selectedStoryId", out selectedStoryIdString))
             {
-                Story currentStory = (from story in DataProvider.getStories() where story.id == int.Parse(selectedStoryIdString) select story).First<Story>();
-                App.ViewModel.LoadStory(currentStory);
+                App.ViewModel.LoadStory(int.Parse(selectedStoryIdString));
                 AllListBox.ItemsSource = App.ViewModel.Tasks["All"];
                 ToDoListBox.ItemsSource = App.ViewModel.Tasks["To Do"];
                 InProgressListBox.ItemsSource = App.ViewModel.Tasks["In progress"];
@@ -39,7 +37,16 @@ namespace Scrumers
 
         private void StoryListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            //TODO : go to Task Page
+            ListBox senderList = (ListBox)sender;
+            //If selected index is -1 (no selection), do nothing
+            if (senderList.SelectedIndex == -1)
+                return;
+
+            //Navigate to new page
+            NavigationService.Navigate(new Uri("/TaskPage.xaml?selectedTaskId=" + ((ItemViewModel)senderList.SelectedItem).Id, UriKind.Relative));
+
+            //Reinit selected index on -1 (no selection)
+            senderList.SelectedIndex = -1;
         }
     }
 }

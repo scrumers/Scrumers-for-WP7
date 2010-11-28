@@ -1,5 +1,4 @@
-+*/Bin/Debug/*
-+*/Bin/Release/*
-+*/obj/Debug/*
-+*/obj/Release/*
-\ No newline at end of file
+*/Bin/Debug/*
+*/Bin/Release/*
+*/obj/Debug/*
+*/obj/Release/*

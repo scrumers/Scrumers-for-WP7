@@ -120,7 +120,7 @@ namespace Scrumers
             {
                 // LineTwo is status instead of elapsed-time in All
                 Tasks["All"].Add(new ItemViewModel() { LineOne = t.name, LineTwo = t.status, LineThree = t.createdAt.ToShortDateString(), Id = t.id.ToString() });
-                Tasks[t.status].Add(new ItemViewModel() { LineOne = t.name, LineTwo = t.elapsedTime.ToString(), LineThree = t.createdAt.ToShortDateString(), Id = t.id.ToString() });
+                Tasks[t.status].Add(new ItemViewModel() { LineOne = t.name, LineTwo = "Elapsed Time: " + t.elapsedTime.ToString(), LineThree = t.createdAt.ToShortDateString(), Id = t.id.ToString() });
             }
         }
 

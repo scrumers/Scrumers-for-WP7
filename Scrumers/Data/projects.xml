@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects type="array">
+  <project>
+    <created-at type="datetime">2010-11-12T15:58:36Z</created-at>
+    <description></description>
+    <id type="integer">174</id>
+    <is-open type="boolean">true</is-open>
+    <logo-content-type nil="true"></logo-content-type>
+    <logo-file-name nil="true"></logo-file-name>
+    <logo-file-size type="integer" nil="true"></logo-file-size>
+    <logo-updated-at type="datetime" nil="true"></logo-updated-at>
+    <name>Scrumers</name>
+    <organisation-id type="integer">15</organisation-id>
+    <updated-at type="datetime">2010-11-12T15:58:36Z</updated-at>
+    <organisation-name>Scrumers</organisation-name>
+    <total-story-points type="integer">101</total-story-points>
+    <average-velocity type="float">16.67</average-velocity>
+    <sprints-completed type="integer">1</sprints-completed>
+    <sprints-left type="integer">5</sprints-left>
+    <days-left type="integer">60</days-left>
+  </project>
+  <project>
+    <created-at type="datetime">2010-11-12T15:59:33Z</created-at>
+    <description></description>
+    <id type="integer">175</id>
+    <is-open type="boolean">true</is-open>
+    <logo-content-type nil="true"></logo-content-type>
+    <logo-file-name nil="true"></logo-file-name>
+    <logo-file-size type="integer" nil="true"></logo-file-size>
+    <logo-updated-at type="datetime" nil="true"></logo-updated-at>
+    <name>Scrumers for iPad</name>
+    <organisation-id type="integer">15</organisation-id>
+    <updated-at type="datetime">2010-11-12T15:59:33Z</updated-at>
+    <organisation-name>Scrumers</organisation-name>
+    <total-story-points type="integer">52</total-story-points>
+    <average-velocity type="float">0.0</average-velocity>
+    <sprints-completed type="integer">0</sprints-completed>
+    <sprints-left type="integer">-1</sprints-left>
+    <days-left type="integer">-1</days-left>
+  </project>
+  <project>
+    <created-at type="datetime">2010-11-12T16:00:07Z</created-at>
+    <description></description>
+    <id type="integer">176</id>
+    <is-open type="boolean">true</is-open>
+    <logo-content-type nil="true"></logo-content-type>
+    <logo-file-name nil="true"></logo-file-name>
+    <logo-file-size type="integer" nil="true"></logo-file-size>
+    <logo-updated-at type="datetime" nil="true"></logo-updated-at>
+    <name>Scrumers for iPhone</name>
+    <organisation-id type="integer">15</organisation-id>
+    <updated-at type="datetime">2010-11-12T16:00:07Z</updated-at>
+    <organisation-name>Scrumers</organisation-name>
+    <total-story-points type="integer">26</total-story-points>
+    <average-velocity type="float">6.5</average-velocity>
+    <sprints-completed type="integer">1</sprints-completed>
+    <sprints-left type="integer">3</sprints-left>
+    <days-left type="integer">24</days-left>
+  </project>
+  <project>
+    <created-at type="datetime">2010-11-12T16:14:19Z</created-at>
+    <description></description>
+    <id type="integer">177</id>
+    <is-open type="boolean">false</is-open>
+    <logo-content-type nil="true"></logo-content-type>
+    <logo-file-name nil="true"></logo-file-name>
+    <logo-file-size type="integer" nil="true"></logo-file-size>
+    <logo-updated-at type="datetime" nil="true"></logo-updated-at>
+    <name>Scrumers - bo&#238;te &#224; id&#233;e</name>
+    <organisation-id type="integer">15</organisation-id>
+    <updated-at type="datetime">2010-11-12T16:14:19Z</updated-at>
+    <organisation-name>Scrumers</organisation-name>
+    <total-story-points type="integer">0</total-story-points>
+    <average-velocity type="float">0.0</average-velocity>
+    <sprints-completed type="integer">0</sprints-completed>
+    <sprints-left type="integer">-1</sprints-left>
+    <days-left type="integer">-1</days-left>
+  </project>
+</projects>

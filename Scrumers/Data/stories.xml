@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user-stories type="array">
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime">2010-11-22T15:45:41Z</completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-12T16:03:12Z</created-at>
+    <description></description>
+    <id type="integer">1932</id>
+    <is-must-have type="boolean">true</is-must-have>
+    <name>As a user, I want to buy a pack of sprints so that I use Scrumers for managing my project</name>
+    <points type="integer">13</points>
+    <position type="integer">1</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">258</sprint-id>
+    <status>Validated</status>
+    <updated-at type="datetime">2010-11-22T15:45:55Z</updated-at>
+    <sprint-name>Sprint 1</sprint-name>
+    <tasks-count type="integer">1</tasks-count>
+    <left-tasks-count type="integer">0</left-tasks-count>
+  </user-story>
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime">2010-11-22T15:45:46Z</completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-12T16:08:14Z</created-at>
+    <description></description>
+    <id type="integer">1936</id>
+    <is-must-have type="boolean">true</is-must-have>
+    <name>As the owner of a project, I want to invite some watchers on my project so that they can follow our progress.</name>
+    <points type="integer">5</points>
+    <position type="integer">2</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">258</sprint-id>
+    <status>Validated</status>
+    <updated-at type="datetime">2010-11-22T15:46:00Z</updated-at>
+    <sprint-name>Sprint 1</sprint-name>
+    <tasks-count type="integer">1</tasks-count>
+    <left-tasks-count type="integer">0</left-tasks-count>
+  </user-story>
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime" nil="true"></completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-12T16:20:47Z</created-at>
+    <description></description>
+    <id type="integer">1942</id>
+    <is-must-have type="boolean">true</is-must-have>
+    <name>As a user, I want to edit my sprint so that I can be agile :-)</name>
+    <points type="integer">2</points>
+    <position type="integer">4</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">259</sprint-id>
+    <status>Descoped</status>
+    <updated-at type="datetime">2010-11-22T15:46:46Z</updated-at>
+    <sprint-name>Sprint 2</sprint-name>
+    <tasks-count type="integer">1</tasks-count>
+    <left-tasks-count type="integer">1</left-tasks-count>
+  </user-story>
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime" nil="true"></completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-12T17:02:14Z</created-at>
+    <description></description>
+    <id type="integer">1951</id>
+    <is-must-have type="boolean">true</is-must-have>
+    <name>[Bug fix] "user_stories#index": story's name, when too long, is messing the UI.</name>
+    <points type="integer">2</points>
+    <position type="integer">5</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">259</sprint-id>
+    <status>Unstarted</status>
+    <updated-at type="datetime">2010-11-22T15:46:48Z</updated-at>
+    <sprint-name>Sprint 2</sprint-name>
+    <tasks-count type="integer">1</tasks-count>
+    <left-tasks-count type="integer">1</left-tasks-count>
+  </user-story>
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime" nil="true"></completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-12T16:18:58Z</created-at>
+    <description></description>
+    <id type="integer">1941</id>
+    <is-must-have type="boolean">false</is-must-have>
+    <name>As a user, I want to mark some stories as "Someday" so that I can keep some traces of my ideas</name>
+    <points type="integer">8</points>
+    <position type="integer">3</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">259</sprint-id>
+    <status>Unstarted</status>
+    <updated-at type="datetime">2010-11-22T15:46:55Z</updated-at>
+    <sprint-name>Sprint 2</sprint-name>
+    <tasks-count type="integer">0</tasks-count>
+    <left-tasks-count type="integer">0</left-tasks-count>
+  </user-story>
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime" nil="true"></completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-12T17:03:22Z</created-at>
+    <description></description>
+    <id type="integer">1952</id>
+    <is-must-have type="boolean">false</is-must-have>
+    <name>As a user, I want to generate a task from a story.</name>
+    <points type="integer">8</points>
+    <position type="integer">6</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">189</sprint-id>
+    <status>Validated</status>
+    <updated-at type="datetime">2010-11-23T15:42:51Z</updated-at>
+    <sprint-name>Sprint 0</sprint-name>
+    <tasks-count type="integer">1</tasks-count>
+    <left-tasks-count type="integer">1</left-tasks-count>
+  </user-story>
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime">2010-11-15T14:51:46Z</completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-12T17:06:55Z</created-at>
+    <description></description>
+    <id type="integer">1954</id>
+    <is-must-have type="boolean">true</is-must-have>
+    <name>[Enhancement] make "sprints#step_2" simpler, selection indicator is missing.</name>
+    <points type="integer">8</points>
+    <position type="integer">7</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">189</sprint-id>
+    <status>Validated</status>
+    <updated-at type="datetime">2010-11-22T15:38:39Z</updated-at>
+    <sprint-name>Sprint 0</sprint-name>
+    <tasks-count type="integer">1</tasks-count>
+    <left-tasks-count type="integer">0</left-tasks-count>
+  </user-story>
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime">2010-11-15T14:51:44Z</completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-15T08:19:22Z</created-at>
+    <description></description>
+    <id type="integer">1955</id>
+    <is-must-have type="boolean">true</is-must-have>
+    <name>[Enhancement] make "sprints#step_3" simpler, selection indicator is missing. </name>
+    <points type="integer">5</points>
+    <position type="integer">8</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">189</sprint-id>
+    <status>Validated</status>
+    <updated-at type="datetime">2010-11-22T15:39:56Z</updated-at>
+    <sprint-name>Sprint 0</sprint-name>
+    <tasks-count type="integer">1</tasks-count>
+    <left-tasks-count type="integer">0</left-tasks-count>
+  </user-story>
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime">2010-11-22T15:45:44Z</completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-15T15:36:33Z</created-at>
+    <description></description>
+    <id type="integer">1956</id>
+    <is-must-have type="boolean">true</is-must-have>
+    <name>Compatibilit&#233; IEx: sprints#index misses a CSS file (organisation ?)</name>
+    <points type="integer">3</points>
+    <position type="integer">9</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">258</sprint-id>
+    <status>Validated</status>
+    <updated-at type="datetime">2010-11-22T15:45:58Z</updated-at>
+    <sprint-name>Sprint 1</sprint-name>
+    <tasks-count type="integer">1</tasks-count>
+    <left-tasks-count type="integer">0</left-tasks-count>
+  </user-story>
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime">2010-11-22T15:45:47Z</completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-15T15:41:45Z</created-at>
+    <description></description>
+    <id type="integer">1960</id>
+    <is-must-have type="boolean">true</is-must-have>
+    <name>Compatibility Chrome: Filter elements are not rounded when selected</name>
+    <points type="integer">8</points>
+    <position type="integer">13</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">258</sprint-id>
+    <status>Validated</status>
+    <updated-at type="datetime">2010-11-22T15:46:05Z</updated-at>
+    <sprint-name>Sprint 1</sprint-name>
+    <tasks-count type="integer">1</tasks-count>
+    <left-tasks-count type="integer">0</left-tasks-count>
+  </user-story>
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime">2010-11-22T15:45:45Z</completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-15T15:38:47Z</created-at>
+    <description></description>
+    <id type="integer">1958</id>
+    <is-must-have type="boolean">true</is-must-have>
+    <name>Enhancement: selected elements (reporting, team, settings, ...)</name>
+    <points type="integer">8</points>
+    <position type="integer">11</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">259</sprint-id>
+    <status>Defected</status>
+    <updated-at type="datetime">2010-11-22T15:46:43Z</updated-at>
+    <sprint-name>Sprint 2</sprint-name>
+    <tasks-count type="integer">1</tasks-count>
+    <left-tasks-count type="integer">0</left-tasks-count>
+  </user-story>
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime" nil="true"></completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-15T15:40:31Z</created-at>
+    <description></description>
+    <id type="integer">1959</id>
+    <is-must-have type="boolean">true</is-must-have>
+    <name>Enhancements: truncate text when it is too long (stories#index, sprint#(step1-step2-step3-step4),</name>
+    <points type="integer">5</points>
+    <position type="integer">12</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">259</sprint-id>
+    <status>Unstarted</status>
+    <updated-at type="datetime">2010-11-22T15:46:49Z</updated-at>
+    <sprint-name>Sprint 2</sprint-name>
+    <tasks-count type="integer">0</tasks-count>
+    <left-tasks-count type="integer">0</left-tasks-count>
+  </user-story>
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime" nil="true"></completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-15T15:37:22Z</created-at>
+    <description></description>
+    <id type="integer">1957</id>
+    <is-must-have type="boolean">true</is-must-have>
+    <name>Compatibilit&#233; IEx: "logout" and "my profile" does not work</name>
+    <points type="integer">13</points>
+    <position type="integer">10</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">259</sprint-id>
+    <status>Defected</status>
+    <updated-at type="datetime">2010-11-22T15:49:16Z</updated-at>
+    <sprint-name>Sprint 2</sprint-name>
+    <tasks-count type="integer">1</tasks-count>
+    <left-tasks-count type="integer">1</left-tasks-count>
+  </user-story>
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime" nil="true"></completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-22T10:54:51Z</created-at>
+    <description></description>
+    <id type="integer">2280</id>
+    <is-must-have type="boolean">false</is-must-have>
+    <name>As an agile Startup, I would to use a mix between Scrum and Kanban</name>
+    <points type="integer">5</points>
+    <position type="integer">15</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">259</sprint-id>
+    <status>Unstarted</status>
+    <updated-at type="datetime">2010-11-22T15:46:51Z</updated-at>
+    <sprint-name>Sprint 2</sprint-name>
+    <tasks-count type="integer">0</tasks-count>
+    <left-tasks-count type="integer">0</left-tasks-count>
+  </user-story>
+  <user-story>
+    <backlog-id type="integer">0</backlog-id>
+    <business-value type="integer" nil="true"></business-value>
+    <completed-at type="datetime" nil="true"></completed-at>
+    <contextual-id type="integer" nil="true"></contextual-id>
+    <created-at type="datetime">2010-11-21T23:52:54Z</created-at>
+    <description>'Scrum of Scrum'</description>
+    <id type="integer">2275</id>
+    <is-must-have type="boolean">false</is-must-have>
+    <name>As a user I want to manage several projects with an Agile method</name>
+    <points type="integer">8</points>
+    <position type="integer">14</position>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">259</sprint-id>
+    <status>Unstarted</status>
+    <updated-at type="datetime">2010-11-22T15:46:56Z</updated-at>
+    <sprint-name>Sprint 2</sprint-name>
+    <tasks-count type="integer">0</tasks-count>
+    <left-tasks-count type="integer">0</left-tasks-count>
+  </user-story>
+</user-stories>

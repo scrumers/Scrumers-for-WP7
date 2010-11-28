@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tasks type="array">
+  <task>
+    <completed-at type="datetime">2010-11-22T15:45:41Z</completed-at>
+    <created-at type="datetime">2010-11-22T15:44:28Z</created-at>
+    <description></description>
+    <effort-value type="integer" nil="true"></effort-value>
+    <elapsed-time type="integer">0</elapsed-time>
+    <estimated-duration type="integer">900</estimated-duration>
+    <id type="integer">3017</id>
+    <is-started type="boolean">true</is-started>
+    <kind nil="true"></kind>
+    <name>As a user, I want to buy a pack of sprints so that I use Scrumers for managing my project</name>
+    <pilote-id type="integer">1</pilote-id>
+    <priority nil="true"></priority>
+    <project-id type="integer">174</project-id>
+    <sprint-id type="integer">258</sprint-id>
+    <started-at type="datetime">2010-11-22T15:45:15Z</started-at>
+    <status>Done</status>
+    <updated-at type="datetime">2010-11-22T15:45:41Z</updated-at>
+    <user-story-id type="integer">1932</user-story-id>
+  </task>
+</tasks>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sprints type="array">
+  <sprint>
+    <created-at type="datetime">2010-11-22T15:46:20Z</created-at>
+    <end-at type="datetime">2011-01-01T15:46:20Z</end-at>
+    <id type="integer">259</id>
+    <name>Sprint 2</name>
+    <project-id type="integer">174</project-id>
+    <start-at type="datetime">2010-12-12T15:46:20Z</start-at>
+    <step type="integer">1</step>
+    <updated-at type="datetime">2010-11-22T15:46:20Z</updated-at>
+    <velocity type="integer">0</velocity>
+    <theorical-velocity type="integer">51</theorical-velocity>
+  </sprint>
+  <sprint>
+    <created-at type="datetime">2010-11-22T15:40:59Z</created-at>
+    <end-at type="datetime">2010-12-07T15:40:59Z</end-at>
+    <id type="integer">258</id>
+    <name>Sprint 1</name>
+    <project-id type="integer">174</project-id>
+    <start-at type="datetime">2010-11-23T00:00:00Z</start-at>
+    <step type="integer">4</step>
+    <updated-at type="datetime">2010-11-22T15:45:48Z</updated-at>
+    <velocity type="integer">29</velocity>
+    <theorical-velocity type="integer">29</theorical-velocity>
+  </sprint>
+  <sprint>
+    <created-at type="datetime">2010-11-12T15:58:37Z</created-at>
+    <end-at type="datetime">2010-11-15T15:58:37Z</end-at>
+    <id type="integer">189</id>
+    <name>Sprint 0</name>
+    <project-id type="integer">174</project-id>
+    <start-at type="datetime">2010-11-13T00:00:00Z</start-at>
+    <step type="integer">3</step>
+    <updated-at type="datetime">2010-11-15T08:18:29Z</updated-at>
+    <velocity type="integer">21</velocity>
+    <theorical-velocity type="integer">21</theorical-velocity>
+  </sprint>
+</sprints>

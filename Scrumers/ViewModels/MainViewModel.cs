@@ -118,15 +118,15 @@ namespace Scrumers
             Story st = (from story in DataProvider.getStories() where story.id == storyId select story).First<Story>();
             Tasks.Clear();
             Tasks.Add("All", new ObservableCollection<ItemViewModel>());
-            Tasks.Add("To Do", new ObservableCollection<ItemViewModel>());
+            Tasks.Add("To do", new ObservableCollection<ItemViewModel>());
             Tasks.Add("In progress", new ObservableCollection<ItemViewModel>());
             Tasks.Add("Done", new ObservableCollection<ItemViewModel>());
             var storyTasks = from task in DataProvider.getTasks() where task.userStoryId == st.id select task;
             foreach (Task t in storyTasks)
             {
                 // LineTwo is status instead of elapsed-time in All
-                Tasks["All"].Add(new ItemViewModel() { LineOne = t.name, LineTwo = t.status, LineThree = t.createdAt.ToShortDateString(), Id = t.id.ToString() });
-                Tasks[t.status].Add(new ItemViewModel() { LineOne = t.name, LineTwo = "Elapsed Time: " + t.elapsedTime.ToString(), LineThree = t.createdAt.ToShortDateString(), Id = t.id.ToString() });
+                Tasks["All"].Add(new ItemViewModel() { LineOne = t.name, LineTwo = t.Status, LineThree = t.createdAt.ToShortDateString(), Id = t.id.ToString() });
+                Tasks[t.Status].Add(new ItemViewModel() { LineOne = t.name, LineTwo = "Elapsed Time: " + t.elapsedTime.ToString(), LineThree = t.createdAt.ToShortDateString(), Id = t.id.ToString() });
             }
         }
 

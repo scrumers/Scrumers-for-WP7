@@ -29,7 +29,7 @@ namespace Scrumers
             {
                 App.ViewModel.LoadStory(int.Parse(selectedStoryIdString));
                 AllListBox.ItemsSource = App.ViewModel.Tasks["All"];
-                ToDoListBox.ItemsSource = App.ViewModel.Tasks["To Do"];
+                ToDoListBox.ItemsSource = App.ViewModel.Tasks["To do"];
                 InProgressListBox.ItemsSource = App.ViewModel.Tasks["In progress"];
                 DoneListBox.ItemsSource = App.ViewModel.Tasks["Done"];
             }

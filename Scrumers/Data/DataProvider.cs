@@ -89,7 +89,7 @@ namespace Scrumers.Data
                                             t.startedAt = DateTime.Parse(reader.Value);
                                             break;
                                         case "status":
-                                            t.status = reader.Value;
+                                            t.Status = reader.Value;
                                             break;
                                         case "updated-at":
                                             t.updatedAt = DateTime.Parse(reader.Value);

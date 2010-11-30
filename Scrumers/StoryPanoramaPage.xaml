@@ -49,7 +49,7 @@
                     </ListBox>
                 </Grid>
             </controls:PanoramaItem>
-            <controls:PanoramaItem Header="To Do">
+            <controls:PanoramaItem Header="To do">
                 <Grid Grid.Row="1" Margin="12,0,12,0">
                     <!-- ItemsSource should be changed in OnNavigatedTo -->
                     <ListBox x:Name="ToDoListBox" Margin="0,0,-12,0" SelectionChanged="StoryListBox_SelectionChanged">

@@ -64,7 +64,7 @@ namespace Scrumers
                 return;
 
             //Navigate to new page
-            NavigationService.Navigate(new Uri("/StoryPanoramaPage.xaml?selectedStoryId=" + ((ItemViewModel)senderList.SelectedItem).Id, UriKind.Relative));
+            NavigationService.Navigate(new Uri("/StoryPivotPage.xaml?selectedStoryId=" + ((ItemViewModel)senderList.SelectedItem).Id, UriKind.Relative));
 
             //Reinit selected index on -1 (no selection)
             senderList.SelectedIndex = -1;

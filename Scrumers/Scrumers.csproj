@@ -79,6 +79,9 @@
     <Compile Include="StoryPanoramaPage.xaml.cs">
       <DependentUpon>StoryPanoramaPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="StoryPivotPage.xaml.cs">
+      <DependentUpon>StoryPivotPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TaskPage.xaml.cs">
       <DependentUpon>TaskPage.xaml</DependentUpon>
     </Compile>
@@ -107,6 +110,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="StoryPanoramaPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StoryPivotPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

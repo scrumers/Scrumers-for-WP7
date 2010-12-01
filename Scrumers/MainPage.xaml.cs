@@ -33,7 +33,7 @@ namespace Scrumers
                 return;
 
             // Naviguer vers la nouvelle page
-            NavigationService.Navigate(new Uri("/SprintsPanoramaPage.xaml?selectedProjectId=" + ((ItemViewModel)MainListBox.SelectedItem).Id, UriKind.Relative));
+            NavigationService.Navigate(new Uri("/SprintsPivotPage.xaml?selectedProjectId=" + ((ItemViewModel)MainListBox.SelectedItem).Id, UriKind.Relative));
 
             // Réinitialiser l'index sélectionné sur -1 (pas de sélection)
             MainListBox.SelectedIndex = -1;

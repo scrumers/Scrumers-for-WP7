@@ -76,6 +76,9 @@
     <Compile Include="SprintsPanoramaPage.xaml.cs">
       <DependentUpon>SprintsPanoramaPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SprintsPivotPage.xaml.cs">
+      <DependentUpon>SprintsPivotPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StoryPanoramaPage.xaml.cs">
       <DependentUpon>StoryPanoramaPage.xaml</DependentUpon>
     </Compile>
@@ -106,6 +109,10 @@
       <SubType>Designer</SubType>
     </DesignData>
     <Page Include="SprintsPanoramaPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SprintsPivotPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
